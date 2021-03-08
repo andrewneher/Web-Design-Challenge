@@ -308,7 +308,7 @@ body {
 }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media ( min-width : 321px ) and (max-width : 1557px ){
 .secondary_header ul li {
 	float: none;
 	margin-top: 15px;
@@ -420,7 +420,10 @@ body {
 	padding-left: 25px;
 	padding-right: 25px;
 }
-}
+.table {
+	-ms-align-items: left;
+	align-items: left;
+	}
 
 @media (min-width: 1001px) {
 }
@@ -454,6 +457,8 @@ body {
 .container .social .social_icon:hover {
 	cursor: pointer;
 	opacity: 0.5;
+
 }
-#menu {
-}
+.navbar-nav{
+	margin-left:auto;
+	}	
